@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    font-family: sans-serif;
+}
+
+table {
+    margin: 100px auto;
+    border-collapse: collapse;
+    width: 600px;
+
+}
+
+thead {
+    background-color: #116B4D;
+    color: white;
+    font-weight: 600;
+
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #F4F8F8;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #E8E9EC;
+}
+
+td {
+    width: 25%;
+    padding: 1rem 1.5rem
+}
+
+tr>td:first-child {
+    font-weight: 600;
+}
